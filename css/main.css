@@ -15,4 +15,30 @@ body {
     background: #ffffff;
 }
 
-/* completa tu codigo aqui */
+font-family{
+    Dosis, sant-serif;
+    
+} 
+nav li a span {
+    text-transform: uppercase;
+    background-color: #070000;
+    opacity: 3s;
+    display: table-cell;
+    vertical-align: middle;
+    }
+
+nav li a {
+    width: 100px;
+    height: 100px;
+   display: table;
+   
+    
+}
+nav li {
+    display: block;
+    width: 180px;
+    height: 100px;
+    background-color: black;
+   }
+
+
