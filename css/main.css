@@ -21,7 +21,6 @@ font-family{
 } 
 nav li a span {
     text-transform: uppercase;
-    background-color: #070000;
     opacity: 3s;
     display: table-cell;
     vertical-align: middle;
@@ -36,9 +35,33 @@ nav li a {
 }
 nav li {
     display: block;
-    width: 180px;
+    width: 100px;
     height: 100px;
-    background-color: black;
+    background-color: none;
+    list-style: none;
    }
+nav,ul {
+    display: table;
+    width: 100px;
+    height: 100px;
+}
 
-
+a,span {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    padding-left: 100px;
+}
+a:hover span{
+    background: black;
+    color: inherit;
+}
+li:nth-of-type(1){background: #63bcd1; color:#63bcd1}
+li:nth-child(2){background: #35e3b4; color:#35e3b4}
+li:nth-child(3){background: #f2cb29; color:#f2cb29}
+li:nth-child(4){background: #f25050; color:#f25050}
